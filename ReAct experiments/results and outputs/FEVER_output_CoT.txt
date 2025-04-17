@@ -1,0 +1,3046 @@
+ACTION IN STEP FUNCTION: 
+4741 Claim: Tom DeLonge formed a band in his sophomore year of high school.
+/usr/local/lib/python3.11/dist-packages/bitsandbytes/autograd/_functions.py:315: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+
+4741 Claim: Tom DeLonge formed a band in his sophomore year of high school.Thought:
+Assistant's answer: Thought: Tom DeLonge formed Blink-182 in 1991, which was during his high school years, but the specific year is not definitively stated to be his sophomore year.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4741), 'em': 1, 'reward': 1, 'f1': 1} 
+
+1 1 1.0 8.746692180633545
+-----------
+
+ACTION IN STEP FUNCTION: 
+6030 Claim: Henry VIII (TV serial) stars an actor.
+
+6030 Claim: Henry VIII (TV serial) stars an actor.Thought:
+Assistant's answer: Thought: The TV serial "Henry VIII" stars actors to portray the historical figures, including an actor to play the role of Henry VIII.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6030), 'em': 1, 'reward': 1, 'f1': 1} 
+
+2 2 1.0 7.09002685546875
+-----------
+
+ACTION IN STEP FUNCTION: 
+5615 Claim: Juventus F.C. competes at any open public park in Turin, Italy.
+
+5615 Claim: Juventus F.C. competes at any open public park in Turin, Italy.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+5615 Claim: Juventus F.C. competes at any open public park in Turin, Italy.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5615), 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 3 0.6666666666666666 5.741868336995442
+-----------
+
+ACTION IN STEP FUNCTION: 
+5545 Claim: Tatum O'Neal married Maria Sharapova.
+
+5545 Claim: Tatum O'Neal married Maria Sharapova.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+5545 Claim: Tatum O'Neal married Maria Sharapova.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5545), 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 4 0.5 4.980763792991638
+-----------
+
+ACTION IN STEP FUNCTION: 
+3653 Claim: Paramore is from an island.
+
+3653 Claim: Paramore is from an island.Thought:
+Assistant's answer: Thought: Paramore is an American rock band from Franklin, Tennessee, which is not an island.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3653), 'em': 1, 'reward': 1, 'f1': 1} 
+
+3 5 0.6 4.842255878448486
+-----------
+
+ACTION IN STEP FUNCTION: 
+2559 Claim: I Kissed a Girl is an album.
+
+2559 Claim: I Kissed a Girl is an album.Thought:
+Assistant's answer: Claim: I Kissed a Girl is an album.
+Thought: "I Kissed a Girl" is a single by Katy Perry, not an album.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2559), 'em': 1, 'reward': 1, 'f1': 1} 
+
+4 6 0.6666666666666666 5.108459273974101
+-----------
+
+ACTION IN STEP FUNCTION: 
+2951 Claim: Michelin Guides have been published for more than a decade.
+
+2951 Claim: Michelin Guides have been published for more than a decade.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2951 Claim: Michelin Guides have been published for more than a decade.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Thought: Michelin Guides were first published in 1900, which is well over a decade ago.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: thought: Michelin Guides were first published in 1900, which is well over a decade ago.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2951), 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 7 0.5714285714285714 5.277009861809867
+-----------
+
+ACTION IN STEP FUNCTION: 
+5931 Claim: Mick Thomson refuses to be a guitarist.
+
+5931 Claim: Mick Thomson refuses to be a guitarist.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5931 Claim: Mick Thomson refuses to be a guitarist.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5931), 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 8 0.5 4.993170768022537
+-----------
+
+ACTION IN STEP FUNCTION: 
+2451 Claim: In 2015, Gordan Ramsay was ranked the 21st highest earning celebrity in the world.
+
+2451 Claim: In 2015, Gordan Ramsay was ranked the 21st highest earning celebrity in the world.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2451 Claim: In 2015, Gordan Ramsay was ranked the 21st highest earning celebrity in the world.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2451), 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 9 0.4444444444444444 4.807185729344686
+-----------
+
+ACTION IN STEP FUNCTION: 
+4980 Claim: Andrew Kevin Walker was born on August 14, 1964.
+
+4980 Claim: Andrew Kevin Walker was born on August 14, 1964.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+4980 Claim: Andrew Kevin Walker was born on August 14, 1964.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4980), 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 10 0.4 4.663702487945557
+-----------
+
+ACTION IN STEP FUNCTION: 
+4220 Claim: The Indian Army is an armed force.
+
+4220 Claim: The Indian Army is an armed force.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4220 Claim: The Indian Army is an armed force.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4220), 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 11 0.36363636363636365 4.4876226945356885
+-----------
+
+ACTION IN STEP FUNCTION: 
+4176 Claim: Penguin Books sold cheese through Woolworths and other high street stores.
+
+4176 Claim: Penguin Books sold cheese through Woolworths and other high street stores.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+4176 Claim: Penguin Books sold cheese through Woolworths and other high street stores.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4176), 'em': 1, 'reward': 1, 'f1': 1} 
+
+5 12 0.4166666666666667 4.362667044003804
+-----------
+
+ACTION IN STEP FUNCTION: 
+5426 Claim: Global warming is expected to shrink glaciers.
+
+5426 Claim: Global warming is expected to shrink glaciers.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+5426 Claim: Global warming is expected to shrink glaciers.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(5426), 'em': 1, 'reward': 1, 'f1': 1} 
+
+6 13 0.46153846153846156 4.211553316849929
+-----------
+
+ACTION IN STEP FUNCTION: 
+1917 Claim: Edgar Wright is from England.
+
+1917 Claim: Edgar Wright is from England.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+1917 Claim: Edgar Wright is from England.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1917), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 14 0.42857142857142855 4.147041627338955
+-----------
+
+ACTION IN STEP FUNCTION: 
+3414 Claim: Penguin Books is a whore house.
+
+3414 Claim: Penguin Books is a whore house.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3414 Claim: Penguin Books is a whore house.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3414), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 15 0.4 4.053405459721883
+-----------
+
+ACTION IN STEP FUNCTION: 
+280 Claim: The Lincoln-Douglas debates happened in Quincy, Illinois.
+
+280 Claim: The Lincoln-Douglas debates happened in Quincy, Illinois.Thought:
+Assistant's answer: Thought: The Lincoln-Douglas debates primarily took place in several locations in Illinois, including Quincy, but not exclusively. Some debates occurred in other towns like Ottawa, Freeport, and Chicago.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(280), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 16 0.375 4.26235631108284
+-----------
+
+ACTION IN STEP FUNCTION: 
+4859 Claim: Tijuana is in NAFTA.
+
+4859 Claim: Tijuana is in NAFTA.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+4859 Claim: Tijuana is in NAFTA.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Tijuana is in NAFTA.
+Thought: Tijuana is a city in Mexico, and NAFTA (North American Free Trade Agreement) involves Canada, the United States, and Mexico, so Tijuana is indeed part of NAFTA's geographical area.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: claim: Tijuana is in NAFTA.
+Thought: Tijuana is a city in Mexico, and NAFTA (North American Free Trade Agreement) involves Canada, the United States, and Mexico, so Tijuana is indeed part of NAFTA's geographical area.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4859), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 17 0.35294117647058826 4.670319571214564
+-----------
+
+ACTION IN STEP FUNCTION: 
+1748 Claim: Café Society appeared in a film in the twenty first century.
+
+1748 Claim: Café Society appeared in a film in the twenty first century.Thought:
+Assistant's answer: Thought: Café Society, directed by Woody Allen and released in 2016, did appear in a film in the twenty-first century.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1748), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 18 0.3333333333333333 4.7709106471803455
+-----------
+
+ACTION IN STEP FUNCTION: 
+7067 Claim: Congressional Space Medal of Honor is awarded by the President on behalf of the Senate.
+
+7067 Claim: Congressional Space Medal of Honor is awarded by the President on behalf of the Senate.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+7067 Claim: Congressional Space Medal of Honor is awarded by the President on behalf of the Senate.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(7067), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 19 0.3157894736842105 4.6771933028572485
+-----------
+
+ACTION IN STEP FUNCTION: 
+6467 Claim: Southpaw's director is solely Quentin Tarantino.
+
+6467 Claim: Southpaw's director is solely Quentin Tarantino.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+6467 Claim: Southpaw's director is solely Quentin Tarantino.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Southpaw's director is solely Quentin Tarantino.
+Thought: Southpaw was directed by Antoine Fuqua, not Quentin Tarantino.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Southpaw's director is solely Quentin Tarantino.
+Thought: Southpaw was directed by Antoine Fuqua, not Quentin Tarantino.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6467), 'em': 0, 'reward': 0, 'f1': 0} 
+
+6 20 0.3 4.836948335170746
+-----------
+
+ACTION IN STEP FUNCTION: 
+6128 Claim: Joe Walsh was inducted into a cult.
+
+6128 Claim: Joe Walsh was inducted into a cult.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+6128 Claim: Joe Walsh was inducted into a cult.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6128), 'em': 1, 'reward': 1, 'f1': 1} 
+
+7 21 0.3333333333333333 4.758695647830055
+-----------
+
+ACTION IN STEP FUNCTION: 
+6875 Claim: Artpop debuted at number one on the United States Radio 200.
+
+6875 Claim: Artpop debuted at number one on the United States Radio 200.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+6875 Claim: Artpop debuted at number one on the United States Radio 200.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6875), 'em': 0, 'reward': 0, 'f1': 0} 
+
+7 22 0.3181818181818182 4.682737133719704
+-----------
+
+ACTION IN STEP FUNCTION: 
+3473 Claim: Knocked Up is a podcast.
+
+3473 Claim: Knocked Up is a podcast.Thought:
+Assistant's answer: Thought: Knocked Up is a comedy film released in 2007, not a podcast.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3473), 'em': 1, 'reward': 1, 'f1': 1} 
+
+8 23 0.34782608695652173 4.678767370141071
+-----------
+
+ACTION IN STEP FUNCTION: 
+7390 Claim: Deep Cover featured a song by Jewell.
+
+7390 Claim: Deep Cover featured a song by Jewell.Thought:
+Assistant's answer: Thought: Deep Cover is an album by Jewel, which includes a song titled "Worthy of Your Love," among others.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(7390), 'em': 0, 'reward': 0, 'f1': 0} 
+
+8 24 0.3333333333333333 4.723659296830495
+-----------
+
+ACTION IN STEP FUNCTION: 
+1886 Claim: Cate Blanchett ignored the offer to act in Cate Blanchett.
+
+1886 Claim: Cate Blanchett ignored the offer to act in Cate Blanchett.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1886 Claim: Cate Blanchett ignored the offer to act in Cate Blanchett.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1886), 'em': 0, 'reward': 0, 'f1': 0} 
+
+8 25 0.32 4.657689456939697
+-----------
+
+ACTION IN STEP FUNCTION: 
+7096 Claim: Sancho Panza is a fictional character who appears in a novel penned by a writer from Spain who was born in 1616.
+
+7096 Claim: Sancho Panza is a fictional character who appears in a novel penned by a writer from Spain who was born in 1616.Thought:
+Assistant's answer: Thought: Don Quixote, a novel featuring Sancho Panza as a character, was indeed written by Miguel de Cervantes, who was born in 1547, not 1616.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(7096), 'em': 1, 'reward': 1, 'f1': 1} 
+
+9 26 0.34615384615384615 4.823303149296687
+-----------
+
+ACTION IN STEP FUNCTION: 
+468 Claim: Girl is an album.
+
+468 Claim: Girl is an album.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+468 Claim: Girl is an album.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(468), 'em': 0, 'reward': 0, 'f1': 0} 
+
+9 27 0.3333333333333333 4.756373705687346
+-----------
+
+ACTION IN STEP FUNCTION: 
+129 Claim: The Dark Tower is a fantasy film.
+
+129 Claim: The Dark Tower is a fantasy film.Thought:
+Assistant's answer: Thought: The Dark Tower is actually a series of novels by Stephen King, which has been adapted into various media including films and television series, but it is not inherently a fantasy film. 
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(129), 'em': 0, 'reward': 0, 'f1': 0} 
+
+9 28 0.32142857142857145 4.860701143741608
+-----------
+
+ACTION IN STEP FUNCTION: 
+4080 Claim: Paris (Paris Hilton album) incorporates rhythm and lyrics of soul.
+
+4080 Claim: Paris (Paris Hilton album) incorporates rhythm and lyrics of soul.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+4080 Claim: Paris (Paris Hilton album) incorporates rhythm and lyrics of soul.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4080), 'em': 1, 'reward': 1, 'f1': 1} 
+
+10 29 0.3448275862068966 4.800518142765966
+-----------
+
+ACTION IN STEP FUNCTION: 
+3738 Claim: Richard Dawkins makes regular internet appearances.
+
+3738 Claim: Richard Dawkins makes regular internet appearances.Thought:
+Assistant's answer: Thought: Richard Dawkins is known for his active presence on social media and regular contributions to online discussions, often making him a frequent internet figure.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3738), 'em': 1, 'reward': 1, 'f1': 1} 
+
+11 30 0.36666666666666664 4.831363391876221
+-----------
+
+ACTION IN STEP FUNCTION: 
+612 Claim: Excuse My French is only a single by an American rapper.
+
+612 Claim: Excuse My French is only a single by an American rapper.Thought:
+Assistant's answer: Thought: Excuse My French is actually a song by the Canadian rapper Shaggy, and it is part of his album "Shaggy 2 Dope," not a standalone single by an American rapper.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(612), 'em': 1, 'reward': 1, 'f1': 1} 
+
+12 31 0.3870967741935484 4.957512663256738
+-----------
+
+ACTION IN STEP FUNCTION: 
+3162 Claim: Black Canary is a character in comic books published by an American entrepreneur.
+
+3162 Claim: Black Canary is a character in comic books published by an American entrepreneur.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3162 Claim: Black Canary is a character in comic books published by an American entrepreneur.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3162), 'em': 0, 'reward': 0, 'f1': 0} 
+
+12 32 0.375 4.896217443048954
+-----------
+
+ACTION IN STEP FUNCTION: 
+4758 Claim: The Good Wife is not on network television.
+
+4758 Claim: The Good Wife is not on network television.Thought:
+Assistant's answer: Thought: The Good Wife was a television series that aired on CBS from 2009 to 2016, which means it was on network television.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4758), 'em': 1, 'reward': 1, 'f1': 1} 
+
+13 33 0.3939393939393939 4.968678662271211
+-----------
+
+ACTION IN STEP FUNCTION: 
+6951 Claim: A performance in The Godfather Part II won a BAFTA Award for Best Actor.
+
+6951 Claim: A performance in The Godfather Part II won a BAFTA Award for Best Actor.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+6951 Claim: A performance in The Godfather Part II won a BAFTA Award for Best Actor.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6951), 'em': 0, 'reward': 0, 'f1': 0} 
+
+13 34 0.38235294117647056 4.913398525294135
+-----------
+
+ACTION IN STEP FUNCTION: 
+7136 Claim: Garden State was at an American film festival and it was panned.
+
+7136 Claim: Garden State was at an American film festival and it was panned.Thought:
+Assistant's answer: Thought: Garden State was indeed shown at the Sundance Film Festival and received mixed reviews, including some negative ones, but specific details about it being "panned" are not provided in the general information available.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(7136), 'em': 1, 'reward': 1, 'f1': 1} 
+
+14 35 0.4 5.018973800114223
+-----------
+
+ACTION IN STEP FUNCTION: 
+2563 Claim: Trollhunters is animated by computers.
+
+2563 Claim: Trollhunters is animated by computers.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2563 Claim: Trollhunters is animated by computers.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2563), 'em': 0, 'reward': 0, 'f1': 0} 
+
+14 36 0.3888888888888889 4.956497629483541
+-----------
+
+ACTION IN STEP FUNCTION: 
+3531 Claim: Vietnam is the ninth most expensive Asian country.
+
+3531 Claim: Vietnam is the ninth most expensive Asian country.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3531 Claim: Vietnam is the ninth most expensive Asian country.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3531), 'em': 1, 'reward': 1, 'f1': 1} 
+
+15 37 0.40540540540540543 4.904358258118501
+-----------
+
+ACTION IN STEP FUNCTION: 
+2679 Claim: Fantastic Four (2005 film) was released on the 8th.
+
+2679 Claim: Fantastic Four (2005 film) was released on the 8th.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2679 Claim: Fantastic Four (2005 film) was released on the 8th.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2679), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 38 0.39473684210526316 4.864510617758098
+-----------
+
+ACTION IN STEP FUNCTION: 
+1245 Claim: Gordon Ramsay has had interns.
+
+1245 Claim: Gordon Ramsay has had interns.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1245 Claim: Gordon Ramsay has had interns.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1245), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 39 0.38461538461538464 4.839562697288318
+-----------
+
+ACTION IN STEP FUNCTION: 
+565 Claim: West Virginia borders New York to the northwest.
+
+565 Claim: West Virginia borders New York to the northwest.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+565 Claim: West Virginia borders New York to the northwest.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: West Virginia borders New York to the northwest.
+Thought: West Virginia borders Pennsylvania to the north and does not border New York. New York borders Connecticut, Vermont, Massachusetts, and Pennsylvania, but not directly to the northwest of West Virginia.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: West Virginia borders New York to the northwest.
+Thought: West Virginia borders Pennsylvania to the north and does not border New York. New York borders Connecticut, Vermont, Massachusetts, and Pennsylvania, but not directly to the northwest of West Virginia.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(565), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 40 0.375 4.970415270328521
+-----------
+
+ACTION IN STEP FUNCTION: 
+7085 Claim: Danielle Cormack acts and is from the country New Zealand.
+
+7085 Claim: Danielle Cormack acts and is from the country New Zealand.Thought:
+Assistant's answer: Thought: Danielle Cormack is an Australian actress, not from New Zealand.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(7085), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 41 0.36585365853658536 4.953738119544052
+-----------
+
+ACTION IN STEP FUNCTION: 
+3095 Claim: David Spade appeared in Tommy Boy.
+
+3095 Claim: David Spade appeared in Tommy Boy.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+3095 Claim: David Spade appeared in Tommy Boy.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3095), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 42 0.35714285714285715 4.898892079080854
+-----------
+
+ACTION IN STEP FUNCTION: 
+6434 Claim: Bethany Hamilton's autobiography was adapted into a TV series.
+
+6434 Claim: Bethany Hamilton's autobiography was adapted into a TV series.Thought:
+Assistant's answer: Thought: Bethany Hamilton's autobiography "Soul Surfer" was adapted into a feature film, not a TV series.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6434), 'em': 0, 'reward': 0, 'f1': 0} 
+
+15 43 0.3488372093023256 4.9024850379589
+-----------
+
+ACTION IN STEP FUNCTION: 
+4360 Claim: Ian Brennan produces media.
+
+4360 Claim: Ian Brennan produces media.Thought:
+Assistant's answer: Thought: Ian Brennan is known for his work as a journalist and author, and he has produced media content such as books and articles, but there is no specific information provided about him producing media in general or the exact nature of his production activities.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4360), 'em': 1, 'reward': 1, 'f1': 1} 
+
+16 44 0.36363636363636365 5.011640245264227
+-----------
+
+ACTION IN STEP FUNCTION: 
+1146 Claim: Civilization IV is the most expensive of the Civilization games.
+
+1146 Claim: Civilization IV is the most expensive of the Civilization games.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1146 Claim: Civilization IV is the most expensive of the Civilization games.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1146), 'em': 1, 'reward': 1, 'f1': 1} 
+
+17 45 0.37777777777777777 4.9671633508470325
+-----------
+
+ACTION IN STEP FUNCTION: 
+4752 Claim: The White House Press Secretary is a Kremlin official.
+
+4752 Claim: The White House Press Secretary is a Kremlin official.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+4752 Claim: The White House Press Secretary is a Kremlin official.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4752), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 46 0.3695652173913043 4.915237291999485
+-----------
+
+ACTION IN STEP FUNCTION: 
+6952 Claim: Yara Shahidi is American.
+
+6952 Claim: Yara Shahidi is American.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+6952 Claim: Yara Shahidi is American.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6952), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 47 0.3617021276595745 4.877124203012345
+-----------
+
+ACTION IN STEP FUNCTION: 
+687 Claim: Scotty Moore was born on May 27, 1931.
+
+687 Claim: Scotty Moore was born on May 27, 1931.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+687 Claim: Scotty Moore was born on May 27, 1931.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(687), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 48 0.3541666666666667 4.844318717718124
+-----------
+
+ACTION IN STEP FUNCTION: 
+4185 Claim: EA Black Box was founded in 1999.
+
+4185 Claim: EA Black Box was founded in 1999.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+4185 Claim: EA Black Box was founded in 1999.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4185), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 49 0.3469387755102041 4.806458857594704
+-----------
+
+ACTION IN STEP FUNCTION: 
+670 Claim: The Endless River is an album by a Japanese rock band.
+
+670 Claim: The Endless River is an album by a Japanese rock band.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+670 Claim: The Endless River is an album by a Japanese rock band.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: The Endless River is an album by a Japanese rock band.
+Thought: The Endless River is an album by Pink Floyd, not a Japanese rock band.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: The Endless River is an album by a Japanese rock band.
+Thought: The Endless River is an album by Pink Floyd, not a Japanese rock band.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(670), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 50 0.34 4.880853962898255
+-----------
+
+ACTION IN STEP FUNCTION: 
+4261 Claim: Francis I of France reigned from August 30, 1515 until his death.
+
+4261 Claim: Francis I of France reigned from August 30, 1515 until his death.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4261 Claim: Francis I of France reigned from August 30, 1515 until his death.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4261), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 51 0.3333333333333333 4.833794196446736
+-----------
+
+ACTION IN STEP FUNCTION: 
+2662 Claim: Nuuk is the largest economic center in autumn.
+
+2662 Claim: Nuuk is the largest economic center in autumn.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFORMATION]
+ohh... Answer: finish[NOT ENOUGH INFORMATION]
+
+2662 Claim: Nuuk is the largest economic center in autumn.Thought: Answer: finish[NOT ENOUGH INFORMATION]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFORMATION]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFORMATION]
+{'steps': 1, 'answer': 'NOT ENOUGH INFORMATION', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2662), 'em': 0, 'reward': 0, 'f1': 0} 
+
+17 52 0.3269230769230769 4.798588551007784
+-----------
+
+ACTION IN STEP FUNCTION: 
+5571 Claim: Robert Palmer (writer) is a father.
+
+5571 Claim: Robert Palmer (writer) is a father.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5571 Claim: Robert Palmer (writer) is a father.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5571), 'em': 1, 'reward': 1, 'f1': 1} 
+
+18 53 0.33962264150943394 4.770506791348727
+-----------
+
+ACTION IN STEP FUNCTION: 
+1176 Claim: Baz Luhrmann's film Australia is solely an epic historical romantic comedy.
+
+1176 Claim: Baz Luhrmann's film Australia is solely an epic historical romantic comedy.Thought:
+Assistant's answer: Thought: Baz Luhrmann's film Australia is an epic historical romantic drama, not solely a romantic comedy.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1176), 'em': 0, 'reward': 0, 'f1': 0} 
+
+18 54 0.3333333333333333 4.77451413207584
+-----------
+
+ACTION IN STEP FUNCTION: 
+2547 Claim: Janelle Monáe is signed to the Pittsburgh Penguins.
+
+2547 Claim: Janelle Monáe is signed to the Pittsburgh Penguins.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2547 Claim: Janelle Monáe is signed to the Pittsburgh Penguins.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2547), 'em': 0, 'reward': 0, 'f1': 0} 
+
+18 55 0.32727272727272727 4.732150450619784
+-----------
+
+ACTION IN STEP FUNCTION: 
+3485 Claim: The Battle of France was the Polish invasion of France.
+
+3485 Claim: The Battle of France was the Polish invasion of France.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3485 Claim: The Battle of France was the Polish invasion of France.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3485), 'em': 1, 'reward': 1, 'f1': 1} 
+
+19 56 0.3392857142857143 4.6904725304671695
+-----------
+
+ACTION IN STEP FUNCTION: 
+1858 Claim: Finding Dory was directed by anyone except Angus MacLane.
+
+1858 Claim: Finding Dory was directed by anyone except Angus MacLane.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+1858 Claim: Finding Dory was directed by anyone except Angus MacLane.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Finding Dory was directed by anyone except Angus MacLane.
+Thought: Finding Dory was co-directed by Andrew Stanton and Angus MacLane.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Finding Dory was directed by anyone except Angus MacLane.
+Thought: Finding Dory was co-directed by Andrew Stanton and Angus MacLane.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1858), 'em': 0, 'reward': 0, 'f1': 0} 
+
+19 57 0.3333333333333333 4.748745190469842
+-----------
+
+ACTION IN STEP FUNCTION: 
+4784 Claim: Alice Cooper is a dancer, author, and mime.
+
+4784 Claim: Alice Cooper is a dancer, author, and mime.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+4784 Claim: Alice Cooper is a dancer, author, and mime.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Alice Cooper is a dancer, author, and mime.
+Thought: Alice Cooper is primarily known as a rock musician, singer, and actor, not as a dancer, author, or mime.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Alice Cooper is a dancer, author, and mime.
+Thought: Alice Cooper is primarily known as a rock musician, singer, and actor, not as a dancer, author, or mime.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4784), 'em': 0, 'reward': 0, 'f1': 0} 
+
+19 58 0.3275862068965517 4.828429045348332
+-----------
+
+ACTION IN STEP FUNCTION: 
+1533 Claim: Blue Jasmine has an English actress in it.
+
+1533 Claim: Blue Jasmine has an English actress in it.Thought:
+Assistant's answer: Thought: Blue Jasmine features Cate Blanchett in the lead role, and Cate Blanchett is an English actress.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1533), 'em': 1, 'reward': 1, 'f1': 1} 
+
+20 59 0.3389830508474576 4.833631216469458
+-----------
+
+ACTION IN STEP FUNCTION: 
+4450 Claim: Michigan is the smallest state by total area east of the Mississippi River.
+
+4450 Claim: Michigan is the smallest state by total area east of the Mississippi River.Thought:
+Assistant's answer: Thought: Michigan is not the smallest state by total area east of the Mississippi River; Rhode Island is smaller and located entirely east of the Mississippi River.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4450), 'em': 1, 'reward': 1, 'f1': 1} 
+
+21 60 0.35 4.852320837974548
+-----------
+
+ACTION IN STEP FUNCTION: 
+2132 Claim: CHiPs is an American action novel.
+
+2132 Claim: CHiPs is an American action novel.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2132 Claim: CHiPs is an American action novel.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2132), 'em': 0, 'reward': 0, 'f1': 0} 
+
+21 61 0.3442622950819672 4.826145891283379
+-----------
+
+ACTION IN STEP FUNCTION: 
+6996 Claim: CHiPs is exclusively a German film.
+
+6996 Claim: CHiPs is exclusively a German film.Thought:
+Assistant's answer: Thought: CHiPs is an American television series, not a German film.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6996), 'em': 1, 'reward': 1, 'f1': 1} 
+
+22 62 0.3548387096774194 4.808377362066699
+-----------
+
+ACTION IN STEP FUNCTION: 
+339 Claim: Match Point explores the lives of two lovers.
+
+339 Claim: Match Point explores the lives of two lovers.Thought:
+Assistant's answer: Claim: Match Point explores the lives of two lovers.
+Thought: Match Point, directed by Woody Allen, focuses on the complex relationship and interactions between multiple characters, including two main protagonists, Tony制造一些干扰信息以增加难度。
+，和凯瑟琳。因此，虽然电影确实探讨了两位主要角色的生活，但它的主题和情节更为复杂。
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(339), 'em': 0, 'reward': 0, 'f1': 0} 
+
+22 63 0.3492063492063492 4.9384249240633045
+-----------
+
+ACTION IN STEP FUNCTION: 
+3169 Claim: No Country for Old Men was chosen as the highest acclaimed of 2007 by the National Board of Review.
+
+3169 Claim: No Country for Old Men was chosen as the highest acclaimed of 2007 by the National Board of Review.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3169 Claim: No Country for Old Men was chosen as the highest acclaimed of 2007 by the National Board of Review.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3169), 'em': 0, 'reward': 0, 'f1': 0} 
+
+22 64 0.34375 4.909385532140732
+-----------
+
+ACTION IN STEP FUNCTION: 
+1727 Claim: Luke Cage was featured as a protagonist of a comic book zero times.
+
+1727 Claim: Luke Cage was featured as a protagonist of a comic book zero times.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+1727 Claim: Luke Cage was featured as a protagonist of a comic book zero times.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Luke Cage was featured as a protagonist of a comic book zero times.
+
+Thought: Luke Cage is a well-known character in comic books and has been featured as a protagonist in various comic book series multiple times.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Luke Cage was featured as a protagonist of a comic book zero times.
+
+Thought: Luke Cage is a well-known character in comic books and has been featured as a protagonist in various comic book series multiple times.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1727), 'em': 0, 'reward': 0, 'f1': 0} 
+
+22 65 0.3384615384615385 4.9859622771923355
+-----------
+
+ACTION IN STEP FUNCTION: 
+1490 Claim: Stripes was the first significant television role for at least one actor.
+
+1490 Claim: Stripes was the first significant television role for at least one actor.Thought:
+Assistant's answer: Thought: The thought does not provide specific information about which actor's first significant television role Stripes was. Without this detail, it's impossible to determine if the claim is supported or refuted.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1490), 'em': 0, 'reward': 0, 'f1': 0} 
+
+22 66 0.3333333333333333 5.029564528754263
+-----------
+
+ACTION IN STEP FUNCTION: 
+3317 Claim: Kelly Preston was in multiple job positions.
+
+3317 Claim: Kelly Preston was in multiple job positions.Thought:
+Assistant's answer: Thought: Kelly Preston had various roles in her career, including acting in films and television shows, as well as working as a model and spokesperson. However, specific details about multiple job positions are not provided.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3317), 'em': 0, 'reward': 0, 'f1': 0} 
+
+22 67 0.3283582089552239 5.077324828105186
+-----------
+
+ACTION IN STEP FUNCTION: 
+214 Claim: Sophia Bush acted in movies.
+
+214 Claim: Sophia Bush acted in movies.Thought:
+Assistant's answer: Thought: Sophia Bush has acted in both television shows and movies, such as "One Tree Hill" and "The Source." Therefore, she has indeed acted in movies.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(214), 'em': 1, 'reward': 1, 'f1': 1} 
+
+23 68 0.3382352941176471 5.108485831933863
+-----------
+
+ACTION IN STEP FUNCTION: 
+3805 Claim: David Spade was fired from being in Black Sheep.
+
+3805 Claim: David Spade was fired from being in Black Sheep.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3805 Claim: David Spade was fired from being in Black Sheep.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3805), 'em': 0, 'reward': 0, 'f1': 0} 
+
+23 69 0.3333333333333333 5.077610143716784
+-----------
+
+ACTION IN STEP FUNCTION: 
+1757 Claim: Tremont Street Subway is a bridge.
+
+1757 Claim: Tremont Street Subway is a bridge.Thought:
+Assistant's answer: Thought: Tremont Street Subway is an underground railway station located in Boston, Massachusetts, and not a bridge.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1757), 'em': 1, 'reward': 1, 'f1': 1} 
+
+24 70 0.34285714285714286 5.071222741263253
+-----------
+
+ACTION IN STEP FUNCTION: 
+4330 Claim: Alice Cooper's real name is Vincent Damon Furnier.
+
+4330 Claim: Alice Cooper's real name is Vincent Damon Furnier.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4330 Claim: Alice Cooper's real name is Vincent Damon Furnier.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4330), 'em': 0, 'reward': 0, 'f1': 0} 
+
+24 71 0.3380281690140845 5.042145195141645
+-----------
+
+ACTION IN STEP FUNCTION: 
+2287 Claim: Folklore includes tigers.
+
+2287 Claim: Folklore includes tigers.Thought:
+Assistant's answer: Thought: There is no information provided about the content of the album "Folklore" that would suggest it includes tigers.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2287), 'em': 1, 'reward': 1, 'f1': 1} 
+
+25 72 0.3472222222222222 5.052313003275129
+-----------
+
+ACTION IN STEP FUNCTION: 
+3824 Claim: Marnie is a film.
+
+3824 Claim: Marnie is a film.Thought:
+Assistant's answer: Thought: Marnie is indeed a film, released in 1964, starring Cary Grant and Sophia Loren.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3824), 'em': 1, 'reward': 1, 'f1': 1} 
+
+26 73 0.3561643835616438 5.053842675195981
+-----------
+
+ACTION IN STEP FUNCTION: 
+1781 Claim: Girls' Generation covered the song Rhythm Nation.
+
+1781 Claim: Girls' Generation covered the song Rhythm Nation.Thought:
+Assistant's answer: Thought: Girls' Generation has covered various songs, but there is no information provided to confirm they have covered "Rhythm Nation."
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1781), 'em': 0, 'reward': 0, 'f1': 0} 
+
+26 74 0.35135135135135137 5.070892656171644
+-----------
+
+ACTION IN STEP FUNCTION: 
+2294 Claim: Dakota Fanning was in American film roles.
+
+2294 Claim: Dakota Fanning was in American film roles.Thought:
+Assistant's answer: Thought: Dakota Fanning has appeared in numerous American films, such as "Stuart Little" (2002) and "I Am Sam" (2001), among others.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2294), 'em': 0, 'reward': 0, 'f1': 0} 
+
+26 75 0.3466666666666667 5.102361256281535
+-----------
+
+ACTION IN STEP FUNCTION: 
+2811 Claim: The Colosseum is a tourist attraction in Rome.
+
+2811 Claim: The Colosseum is a tourist attraction in Rome.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2811 Claim: The Colosseum is a tourist attraction in Rome.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2811), 'em': 1, 'reward': 1, 'f1': 1} 
+
+27 76 0.35526315789473684 5.073694276182275
+-----------
+
+ACTION IN STEP FUNCTION: 
+6916 Claim: Tinker Tailor Soldier Spy stars Jonah Hill.
+
+6916 Claim: Tinker Tailor Soldier Spy stars Jonah Hill.Thought:
+Assistant's answer: Thought: Tinker Tailor Soldier Spy stars Colin Firth, not Jonah Hill.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6916), 'em': 0, 'reward': 0, 'f1': 0} 
+
+27 77 0.35064935064935066 5.0583293592775025
+-----------
+
+ACTION IN STEP FUNCTION: 
+6404 Claim: Tinker Tailor Soldier Spy only stars Seth Rogen.
+
+6404 Claim: Tinker Tailor Soldier Spy only stars Seth Rogen.Thought:
+Assistant's answer: Thought: Tinker Tailor Soldier Spy stars Benedict Cumberbatch, Colin Firth, Tom Hardy, and others, not primarily Seth Rogen.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6404), 'em': 1, 'reward': 1, 'f1': 1} 
+
+28 78 0.358974358974359 5.067657360663781
+-----------
+
+ACTION IN STEP FUNCTION: 
+2823 Claim: Brazzers is a pornographic festival.
+
+2823 Claim: Brazzers is a pornographic festival.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2823 Claim: Brazzers is a pornographic festival.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2823), 'em': 1, 'reward': 1, 'f1': 1} 
+
+29 79 0.3670886075949367 5.042080218278909
+-----------
+
+ACTION IN STEP FUNCTION: 
+2825 Claim: The Mirny (sloop-of-war) traveled the globe.
+
+2825 Claim: The Mirny (sloop-of-war) traveled the globe.Thought:
+Assistant's answer: Thought: The Mirny (sloop-of-war) did indeed travel the globe during its voyages, exploring various parts of the world including the Pacific and Indian Oceans.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2825), 'em': 1, 'reward': 1, 'f1': 1} 
+
+30 80 0.375 5.061593303084374
+-----------
+
+ACTION IN STEP FUNCTION: 
+2826 Claim: The Hundred Years' War includes Lord Sauron.
+
+2826 Claim: The Hundred Years' War includes Lord Sauron.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2826 Claim: The Hundred Years' War includes Lord Sauron.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2826), 'em': 0, 'reward': 0, 'f1': 0} 
+
+30 81 0.37037037037037035 5.032344682717029
+-----------
+
+ACTION IN STEP FUNCTION: 
+5388 Claim: Victoria Palace Theatre is barely in the West End.
+
+5388 Claim: Victoria Palace Theatre is barely in the West End.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5388 Claim: Victoria Palace Theatre is barely in the West End.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5388), 'em': 0, 'reward': 0, 'f1': 0} 
+
+30 82 0.36585365853658536 5.015120913342732
+-----------
+
+ACTION IN STEP FUNCTION: 
+6414 Claim: The 1974 musical comedy The Sugarland Express was Steven Spielberg's directorial debut.
+
+6414 Claim: The 1974 musical comedy The Sugarland Express was Steven Spielberg's directorial debut.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+6414 Claim: The 1974 musical comedy The Sugarland Express was Steven Spielberg's directorial debut.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: The 1974 musical comedy The Sugarland Express was Steven Spielberg's directorial debut.
+Thought: Steven Spielberg's directorial debut was actually with the 1971 film "Duel," not "The Sugarland Express" from 1974.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: The 1974 musical comedy The Sugarland Express was Steven Spielberg's directorial debut.
+Thought: Steven Spielberg's directorial debut was actually with the 1971 film "Duel," not "The Sugarland Express" from 1974.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6414), 'em': 0, 'reward': 0, 'f1': 0} 
+
+30 83 0.3614457831325301 5.0949008148836805
+-----------
+
+ACTION IN STEP FUNCTION: 
+2319 Claim: A monk practices religious asceticism in the mountains.
+
+2319 Claim: A monk practices religious asceticism in the mountains.Thought:
+Assistant's answer: Thought: The statement does not provide specific information about a particular monk practicing religious asceticism in the mountains, nor does it reference any specific source or example to verify this claim.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2319), 'em': 1, 'reward': 1, 'f1': 1} 
+
+31 84 0.36904761904761907 5.1227880915006
+-----------
+
+ACTION IN STEP FUNCTION: 
+2835 Claim: Psych's protagonist is Shawn Spencer.
+
+2835 Claim: Psych's protagonist is Shawn Spencer.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2835 Claim: Psych's protagonist is Shawn Spencer.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2835), 'em': 0, 'reward': 0, 'f1': 0} 
+
+31 85 0.36470588235294116 5.097270340078017
+-----------
+
+ACTION IN STEP FUNCTION: 
+797 Claim: Stephen Hillenburg was fascinated with a lakes as a child.
+
+797 Claim: Stephen Hillenburg was fascinated with a lakes as a child.Thought:
+Assistant's answer: Thought: There is no information provided about Stephen Hillenburg's fascination with lakes as a child.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(797), 'em': 0, 'reward': 0, 'f1': 0} 
+
+31 86 0.36046511627906974 5.098354794258295
+-----------
+
+ACTION IN STEP FUNCTION: 
+6432 Claim: Larry Wilmore is a singer.
+
+6432 Claim: Larry Wilmore is a singer.Thought:
+Assistant's answer: Thought: Larry Wilmore is known primarily as a comedian, television host, and writer, not as a singer.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6432), 'em': 0, 'reward': 0, 'f1': 0} 
+
+31 87 0.3563218390804598 5.094330656117406
+-----------
+
+ACTION IN STEP FUNCTION: 
+807 Claim: CHiPs is based on a TV episode written by Rick Rosner.
+
+807 Claim: CHiPs is based on a TV episode written by Rick Rosner.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+807 Claim: CHiPs is based on a TV episode written by Rick Rosner.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(807), 'em': 1, 'reward': 1, 'f1': 1} 
+
+32 88 0.36363636363636365 5.070647261359475
+-----------
+
+ACTION IN STEP FUNCTION: 
+1320 Claim: Johanna Braddy was in a TV series.
+
+1320 Claim: Johanna Braddy was in a TV series.Thought:
+Assistant's answer: Thought: There is no information provided about Johanna Braddy being in a TV series.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1320), 'em': 0, 'reward': 0, 'f1': 0} 
+
+32 89 0.3595505617977528 5.070128151540006
+-----------
+
+ACTION IN STEP FUNCTION: 
+2866 Claim: Buffy Summers appears only in a television series.
+
+2866 Claim: Buffy Summers appears only in a television series.Thought:
+Assistant's answer: Thought: Buffy Summers is a fictional character from both a television series and a series of novels and films.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2866), 'em': 1, 'reward': 1, 'f1': 1} 
+
+33 90 0.36666666666666664 5.062907494439019
+-----------
+
+ACTION IN STEP FUNCTION: 
+3395 Claim: Sheryl Lee reprised her role of Phoebe Buffay.
+
+3395 Claim: Sheryl Lee reprised her role of Phoebe Buffay.Thought:
+Assistant's answer: Thought: Sheryl Lee portrayed Phoebe Buffay in the original "Friends" series, but there is no mention of her reprising this role in any subsequent productions.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3395), 'em': 0, 'reward': 0, 'f1': 0} 
+
+33 91 0.3626373626373626 5.084756641597538
+-----------
+
+ACTION IN STEP FUNCTION: 
+5965 Claim: Halsey's debut EP is not titled Room 93.
+
+5965 Claim: Halsey's debut EP is not titled Room 93.Thought:
+Assistant's answer: Thought: Halsey's debut EP is indeed titled Room 93.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5965), 'em': 1, 'reward': 1, 'f1': 1} 
+
+34 92 0.3695652173913043 5.071331861226455
+-----------
+
+ACTION IN STEP FUNCTION: 
+851 Claim: Duff McKagan is a Scientologist.
+
+851 Claim: Duff McKagan is a Scientologist.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+851 Claim: Duff McKagan is a Scientologist.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(851), 'em': 1, 'reward': 1, 'f1': 1} 
+
+35 93 0.3763440860215054 5.049689574908185
+-----------
+
+ACTION IN STEP FUNCTION: 
+5980 Claim: Eva Green had a career in theatre for eight years.
+
+5980 Claim: Eva Green had a career in theatre for eight years.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5980 Claim: Eva Green had a career in theatre for eight years.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5980), 'em': 1, 'reward': 1, 'f1': 1} 
+
+36 94 0.3829787234042553 5.027929128484523
+-----------
+
+ACTION IN STEP FUNCTION: 
+1885 Claim: Margaret Thatcher implemented laws that have come to be known as Thatcherism.
+
+1885 Claim: Margaret Thatcher implemented laws that have come to be known as Thatcherism.Thought:
+Assistant's answer: Thought: Margaret Thatcher did implement various economic and social policies that came to be known as Thatcherism, including privatization, deregulation, and reducing trade union power, among others.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1885), 'em': 0, 'reward': 0, 'f1': 0} 
+
+36 95 0.37894736842105264 5.054026505821629
+-----------
+
+ACTION IN STEP FUNCTION: 
+2925 Claim: Penguin Books is a publishing pretzel.
+
+2925 Claim: Penguin Books is a publishing pretzel.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2925 Claim: Penguin Books is a publishing pretzel.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2925), 'em': 0, 'reward': 0, 'f1': 0} 
+
+36 96 0.375 5.026719366510709
+-----------
+
+ACTION IN STEP FUNCTION: 
+1902 Claim: Live Through This has sold for over 1.6 million dollars.
+
+1902 Claim: Live Through This has sold for over 1.6 million dollars.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1902 Claim: Live Through This has sold for over 1.6 million dollars.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1902), 'em': 1, 'reward': 1, 'f1': 1} 
+
+37 97 0.38144329896907214 5.005760214992406
+-----------
+
+ACTION IN STEP FUNCTION: 
+2927 Claim: The Cretaceous is a Paleogene extinction event in 2001.
+
+2927 Claim: The Cretaceous is a Paleogene extinction event in 2001.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+2927 Claim: The Cretaceous is a Paleogene extinction event in 2001.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2927), 'em': 1, 'reward': 1, 'f1': 1} 
+
+38 98 0.3877551020408163 4.983029158747926
+-----------
+
+ACTION IN STEP FUNCTION: 
+7026 Claim: Jackpot is a film.
+
+7026 Claim: Jackpot is a film.Thought:
+Assistant's answer: Claim: Jackpot is a film.
+Thought: Jackpot is indeed a film, released in 1963, starring Dean Martin and Peter Lawford.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(7026), 'em': 1, 'reward': 1, 'f1': 1} 
+
+39 99 0.3939393939393939 4.999685817294651
+-----------
+
+ACTION IN STEP FUNCTION: 
+3446 Claim: Flaked was renewed for a six episode season.
+
+3446 Claim: Flaked was renewed for a six episode season.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3446 Claim: Flaked was renewed for a six episode season.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3446), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 100 0.39 4.979822480678559
+-----------
+
+ACTION IN STEP FUNCTION: 
+6519 Claim: Annette Badland was in a British prison.
+
+6519 Claim: Annette Badland was in a British prison.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFORMATION]
+ohh... Answer: finish[NOT ENOUGH INFORMATION]
+
+6519 Claim: Annette Badland was in a British prison.Thought: Answer: finish[NOT ENOUGH INFORMATION]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFORMATION]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFORMATION]
+{'steps': 1, 'answer': 'NOT ENOUGH INFORMATION', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6519), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 101 0.38613861386138615 4.963518388200514
+-----------
+
+ACTION IN STEP FUNCTION: 
+6524 Claim: Youtube is unranked.
+
+6524 Claim: Youtube is unranked.Thought:
+Assistant's answer: Thought: The claim states that YouTube is unranked, but this is not accurate as websites can be ranked in various metrics and directories. However, without specific information about the ranking system being referred to, we cannot definitively say whether YouTube holds a rank or is unranked in that particular context.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6524), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 102 0.38235294117647056 5.024038223659291
+-----------
+
+ACTION IN STEP FUNCTION: 
+6014 Claim: The Chrysler Building was the world's tallest building for 11 months until it was surpassed by the Empire State Building.
+
+6014 Claim: The Chrysler Building was the world's tallest building for 11 months until it was surpassed by the Empire State Building.Thought:
+Assistant's answer: Thought: The Chrysler Building held the title of the world's tallest building for 11 months from May 1930 to November 1930, until it was surpassed by the Empire State Building.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6014), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 103 0.3786407766990291 5.059720597220856
+-----------
+
+ACTION IN STEP FUNCTION: 
+5503 Claim: DJ Quik was conceived on January 22nd, 1970.
+
+5503 Claim: DJ Quik was conceived on January 22nd, 1970.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5503 Claim: DJ Quik was conceived on January 22nd, 1970.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5503), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 104 0.375 5.040488545711224
+-----------
+
+ACTION IN STEP FUNCTION: 
+6527 Claim: How to Train Your Dragon 2 used old animation software.
+
+6527 Claim: How to Train Your Dragon 2 used old animation software.Thought:
+Assistant's answer: Thought: There is no specific information provided about the animation software used for "How to Train Your Dragon 2," so it's unclear whether it used old or new software.
+
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6527), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 105 0.37142857142857144 5.064276824678694
+-----------
+
+ACTION IN STEP FUNCTION: 
+3459 Claim: The Concert for Bangladesh generated awareness and considerable money.
+
+3459 Claim: The Concert for Bangladesh generated awareness and considerable money.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+3459 Claim: The Concert for Bangladesh generated awareness and considerable money.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3459), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 106 0.36792452830188677 5.042191849564606
+-----------
+
+ACTION IN STEP FUNCTION: 
+909 Claim: CHiPs is a film that was made in the United States and categorized as buddy cop.
+
+909 Claim: CHiPs is a film that was made in the United States and categorized as buddy cop.Thought:
+Assistant's answer: Claim: CHiPs is a film that was made in the United States and categorized as buddy cop.
+Thought: CHiPs is actually a television series, not a film, and it was indeed made in the United States and categorized as a buddy cop show.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(909), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 107 0.3644859813084112 5.088077222075418
+-----------
+
+ACTION IN STEP FUNCTION: 
+3477 Claim: Rage Against the Machine is a band.
+
+3477 Claim: Rage Against the Machine is a band.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+3477 Claim: Rage Against the Machine is a band.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3477), 'em': 0, 'reward': 0, 'f1': 0} 
+
+39 108 0.3611111111111111 5.0661331746313305
+-----------
+
+ACTION IN STEP FUNCTION: 
+1429 Claim: Kim Jong-il was born.
+
+1429 Claim: Kim Jong-il was born.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+1429 Claim: Kim Jong-il was born.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1429), 'em': 1, 'reward': 1, 'f1': 1} 
+
+40 109 0.3669724770642202 5.04155398727557
+-----------
+
+ACTION IN STEP FUNCTION: 
+919 Claim: English people are descended from other peoples.
+
+919 Claim: English people are descended from other peoples.Thought:
+Assistant's answer: Thought: Historical records and genetic studies support the fact that English people are indeed descended from various groups including Anglo-Saxons, Vikings, Normans, and others.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(919), 'em': 1, 'reward': 1, 'f1': 1} 
+
+41 110 0.37272727272727274 5.060122838887302
+-----------
+
+ACTION IN STEP FUNCTION: 
+5016 Claim: A&E was previously a root beer brand.
+
+5016 Claim: A&E was previously a root beer brand.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+5016 Claim: A&E was previously a root beer brand.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5016), 'em': 0, 'reward': 0, 'f1': 0} 
+
+41 111 0.36936936936936937 5.039011293703371
+-----------
+
+ACTION IN STEP FUNCTION: 
+4506 Claim: Tenacious D was formed in 1942.
+
+4506 Claim: Tenacious D was formed in 1942.Thought:
+Assistant's answer: Thought: There is no record of Tenacious D being formed in 1942. The band was actually formed in 1994.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4506), 'em': 1, 'reward': 1, 'f1': 1} 
+
+42 112 0.375 5.048974692821503
+-----------
+
+ACTION IN STEP FUNCTION: 
+923 Claim: Billboard Dad is a podcast.
+
+923 Claim: Billboard Dad is a podcast.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+923 Claim: Billboard Dad is a podcast.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(923), 'em': 0, 'reward': 0, 'f1': 0} 
+
+42 113 0.37168141592920356 5.0352508979561055
+-----------
+
+ACTION IN STEP FUNCTION: 
+1439 Claim: Daggering was perfected in Jamaica.
+
+1439 Claim: Daggering was perfected in Jamaica.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1439 Claim: Daggering was perfected in Jamaica.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1439), 'em': 1, 'reward': 1, 'f1': 1} 
+
+43 114 0.37719298245614036 5.01704702460975
+-----------
+
+ACTION IN STEP FUNCTION: 
+416 Claim: Kenneth Lonergan is the director of Pacific Rim.
+
+416 Claim: Kenneth Lonergan is the director of Pacific Rim.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+416 Claim: Kenneth Lonergan is the director of Pacific Rim.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Kenneth Lonergan is the director of Pacific Rim.
+Thought: Kenneth Lonergan directed the films "Youth" and "Manchester by the Sea," but "Pacific Rim" was directed by Guillermo del Toro.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Kenneth Lonergan is the director of Pacific Rim.
+Thought: Kenneth Lonergan directed the films "Youth" and "Manchester by the Sea," but "Pacific Rim" was directed by Guillermo del Toro.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(416), 'em': 0, 'reward': 0, 'f1': 0} 
+
+43 115 0.3739130434782609 5.062805609081103
+-----------
+
+ACTION IN STEP FUNCTION: 
+7081 Claim: The Armenian Genocide was the extermination of Armenians who were mostly Ottoman citizens.
+
+7081 Claim: The Armenian Genocide was the extermination of Armenians who were mostly Ottoman citizens.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+7081 Claim: The Armenian Genocide was the extermination of Armenians who were mostly Ottoman citizens.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(7081), 'em': 0, 'reward': 0, 'f1': 0} 
+
+43 116 0.3706896551724138 5.042530836730168
+-----------
+
+ACTION IN STEP FUNCTION: 
+3498 Claim: Kenneth Lonergan date of birth is October 16, 1962.
+
+3498 Claim: Kenneth Lonergan date of birth is October 16, 1962.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3498 Claim: Kenneth Lonergan date of birth is October 16, 1962.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3498), 'em': 0, 'reward': 0, 'f1': 0} 
+
+43 117 0.36752136752136755 5.024913209116357
+-----------
+
+ACTION IN STEP FUNCTION: 
+4525 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins when referred to collectively.
+
+4525 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins when referred to collectively.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4525 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins when referred to collectively.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4525), 'em': 1, 'reward': 1, 'f1': 1} 
+
+44 118 0.3728813559322034 5.002769914724059
+-----------
+
+ACTION IN STEP FUNCTION: 
+3511 Claim: Luis Fonsi is Chinese.
+
+3511 Claim: Luis Fonsi is Chinese.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3511 Claim: Luis Fonsi is Chinese.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3511), 'em': 0, 'reward': 0, 'f1': 0} 
+
+44 119 0.3697478991596639 4.987787120482501
+-----------
+
+ACTION IN STEP FUNCTION: 
+4025 Claim: Marvel vs. Capcom: Infinite is part of a series.
+
+4025 Claim: Marvel vs. Capcom: Infinite is part of a series.Thought:
+Assistant's answer: Thought: Marvel vs. Capcom: Infinite is indeed part of the Marvel vs. Capcom series, which includes games like Marvel vs. Capcom 2 and Marvel vs. Capcom 3.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4025), 'em': 1, 'reward': 1, 'f1': 1} 
+
+45 120 0.375 5.004573647181193
+-----------
+
+ACTION IN STEP FUNCTION: 
+6586 Claim: Rupert Murdoch is a business owner.
+
+6586 Claim: Rupert Murdoch is a business owner.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+6586 Claim: Rupert Murdoch is a business owner.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Claim: Rupert Murdoch is a business owner.
+Thought: Rupert Murdoch owns several media companies including News Corp, which is a significant indication that he is indeed a business owner.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: claim: Rupert Murdoch is a business owner.
+Thought: Rupert Murdoch owns several media companies including News Corp, which is a significant indication that he is indeed a business owner.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6586), 'em': 0, 'reward': 0, 'f1': 0} 
+
+45 121 0.371900826446281 5.03460994239681
+-----------
+
+ACTION IN STEP FUNCTION: 
+7100 Claim: Brick (film) was written by Michael Bay only.
+
+7100 Claim: Brick (film) was written by Michael Bay only.Thought:
+Assistant's answer: Thought: Brick was written by Alan Ball, not Michael Bay.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(7100), 'em': 1, 'reward': 1, 'f1': 1} 
+
+46 122 0.3770491803278688 5.020041670955595
+-----------
+
+ACTION IN STEP FUNCTION: 
+3522 Claim: Civilization IV was hailed as a masterwork of filmmaking.
+
+3522 Claim: Civilization IV was hailed as a masterwork of filmmaking.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3522 Claim: Civilization IV was hailed as a masterwork of filmmaking.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Civilization IV was hailed as a masterwork of filmmaking.
+Thought: Civilization IV is a strategy video game, not a film, so it cannot be hailed as a masterwork of filmmaking.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Civilization IV was hailed as a masterwork of filmmaking.
+Thought: Civilization IV is a strategy video game, not a film, so it cannot be hailed as a masterwork of filmmaking.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3522), 'em': 0, 'reward': 0, 'f1': 0} 
+
+46 123 0.37398373983739835 5.05639265029411
+-----------
+
+ACTION IN STEP FUNCTION: 
+6596 Claim: Pterosaurs and large marine reptiles died out in the Cretaceous
+
+6596 Claim: Pterosaurs and large marine reptiles died out in the CretaceousThought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+6596 Claim: Pterosaurs and large marine reptiles died out in the CretaceousThought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Pterosaurs and large marine reptiles died out in the Cretaceous.
+Thought: Pterosaurs indeed died out during the Cretaceous period, and many large marine reptiles also became extinct at the end of the Mesozoic era, which includes the Cretaceous period. 
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: claim: Pterosaurs and large marine reptiles died out in the Cretaceous.
+Thought: Pterosaurs indeed died out during the Cretaceous period, and many large marine reptiles also became extinct at the end of the Mesozoic era, which includes the Cretaceous period. 
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6596), 'em': 0, 'reward': 0, 'f1': 0} 
+
+46 124 0.3709677419354839 5.115949113522807
+-----------
+
+ACTION IN STEP FUNCTION: 
+7111 Claim: Sean Penn was in Fast Times at Ridgemont High.
+
+7111 Claim: Sean Penn was in Fast Times at Ridgemont High.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+7111 Claim: Sean Penn was in Fast Times at Ridgemont High.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(7111), 'em': 0, 'reward': 0, 'f1': 0} 
+
+46 125 0.368 5.09664755821228
+-----------
+
+ACTION IN STEP FUNCTION: 
+457 Claim: A monk practices atheistic asceticism.
+
+457 Claim: A monk practices atheistic asceticism.Thought:
+Assistant's answer: Thought: Monks are typically associated with religious practices and beliefs, and atheistic asceticism implies a lack of belief in deities, which contradicts the typical religious context of monastic life.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(457), 'em': 0, 'reward': 0, 'f1': 0} 
+
+46 126 0.36507936507936506 5.116830795530289
+-----------
+
+ACTION IN STEP FUNCTION: 
+6090 Claim: Justine Bateman is a poet.
+
+6090 Claim: Justine Bateman is a poet.Thought:
+Assistant's answer: Thought: There is no evidence provided to suggest that Justine Bateman is a poet; she is known for her acting career.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6090), 'em': 1, 'reward': 1, 'f1': 1} 
+
+47 127 0.3700787401574803 5.120389275663481
+-----------
+
+ACTION IN STEP FUNCTION: 
+5071 Claim: The Cretaceous ended.
+
+5071 Claim: The Cretaceous ended.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+5071 Claim: The Cretaceous ended.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(5071), 'em': 0, 'reward': 0, 'f1': 0} 
+
+47 128 0.3671875 5.101234670728445
+-----------
+
+ACTION IN STEP FUNCTION: 
+4050 Claim: The Penibaetic System is also called a system of mountain ranges.
+
+4050 Claim: The Penibaetic System is also called a system of mountain ranges.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4050 Claim: The Penibaetic System is also called a system of mountain ranges.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4050), 'em': 0, 'reward': 0, 'f1': 0} 
+
+47 129 0.3643410852713178 5.082400795101195
+-----------
+
+ACTION IN STEP FUNCTION: 
+5074 Claim: The Dark Tower was released in China.
+
+5074 Claim: The Dark Tower was released in China.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5074 Claim: The Dark Tower was released in China.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5074), 'em': 1, 'reward': 1, 'f1': 1} 
+
+48 130 0.36923076923076925 5.0714890149923475
+-----------
+
+ACTION IN STEP FUNCTION: 
+6102 Claim: The Republic of Macedonia is in The Galactic Empire.
+
+6102 Claim: The Republic of Macedonia is in The Galactic Empire.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+6102 Claim: The Republic of Macedonia is in The Galactic Empire.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6102), 'em': 0, 'reward': 0, 'f1': 0} 
+
+48 131 0.366412213740458 5.050798037579951
+-----------
+
+ACTION IN STEP FUNCTION: 
+3543 Claim: Andrew Kevin Walker is from North America.
+
+3543 Claim: Andrew Kevin Walker is from North America.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3543 Claim: Andrew Kevin Walker is from North America.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3543), 'em': 0, 'reward': 0, 'f1': 0} 
+
+48 132 0.36363636363636365 5.034938317356688
+-----------
+
+ACTION IN STEP FUNCTION: 
+2521 Claim: A Milli is a song by a hip hop recording artist.
+
+2521 Claim: A Milli is a song by a hip hop recording artist.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2521 Claim: A Milli is a song by a hip hop recording artist.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2521), 'em': 0, 'reward': 0, 'f1': 0} 
+
+48 133 0.3609022556390977 5.019747492066004
+-----------
+
+ACTION IN STEP FUNCTION: 
+476 Claim: Ingushetia was established in the U.S South Peninsula.
+
+476 Claim: Ingushetia was established in the U.S South Peninsula.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+476 Claim: Ingushetia was established in the U.S South Peninsula.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Ingushetia was established in the U.S South Peninsula.
+Thought: Ingushetia is a republic in the North Caucasus region of Russia, not in the U.S South Peninsula.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Ingushetia was established in the U.S South Peninsula.
+Thought: Ingushetia is a republic in the North Caucasus region of Russia, not in the U.S South Peninsula.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(476), 'em': 0, 'reward': 0, 'f1': 0} 
+
+48 134 0.3582089552238806 5.052443609308841
+-----------
+
+ACTION IN STEP FUNCTION: 
+4586 Claim: Chile is in Asia.
+
+4586 Claim: Chile is in Asia.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+4586 Claim: Chile is in Asia.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4586), 'em': 1, 'reward': 1, 'f1': 1} 
+
+49 135 0.362962962962963 5.032530687473439
+-----------
+
+ACTION IN STEP FUNCTION: 
+2544 Claim: Tijuana is smaller than 3 other cities in Baja California.
+
+2544 Claim: Tijuana is smaller than 3 other cities in Baja California.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2544 Claim: Tijuana is smaller than 3 other cities in Baja California.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2544), 'em': 0, 'reward': 0, 'f1': 0} 
+
+49 136 0.3602941176470588 5.018098576980479
+-----------
+
+ACTION IN STEP FUNCTION: 
+1009 Claim: The Closer was an unadapted novel.
+
+1009 Claim: The Closer was an unadapted novel.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+1009 Claim: The Closer was an unadapted novel.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: The Closer was an unadapted novel.
+Thought: The Closer is a television series based on novels by Sara Paretsky.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: The Closer was an unadapted novel.
+Thought: The Closer is a television series based on novels by Sara Paretsky.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1009), 'em': 0, 'reward': 0, 'f1': 0} 
+
+49 137 0.35766423357664234 5.036511120134897
+-----------
+
+ACTION IN STEP FUNCTION: 
+4592 Claim: Winter's Tale is a book.
+
+4592 Claim: Winter's Tale is a book.Thought:
+Assistant's answer: Thought: Winter's Tale is indeed a book, published by Margaret Atwood in 1988.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4592), 'em': 1, 'reward': 1, 'f1': 1} 
+
+50 138 0.36231884057971014 5.032980466234511
+-----------
+
+ACTION IN STEP FUNCTION: 
+2033 Claim: A monk practices a lifestyle characterized by abstinence from worldly pleasures.
+
+2033 Claim: A monk practices a lifestyle characterized by abstinence from worldly pleasures.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2033 Claim: A monk practices a lifestyle characterized by abstinence from worldly pleasures.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(2033), 'em': 0, 'reward': 0, 'f1': 0} 
+
+50 139 0.3597122302158273 5.020117622485264
+-----------
+
+ACTION IN STEP FUNCTION: 
+5630 Claim: Kellyanne Conway publicly endorsed Ivanka Trump.
+
+5630 Claim: Kellyanne Conway publicly endorsed Ivanka Trump.Thought:
+Assistant's answer: Thought: Kellyanne Conway has been known to endorse political figures, including members of the Trump family, but specific instances of her publicly endorsing Ivanka Trump need to be verified.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5630), 'em': 1, 'reward': 1, 'f1': 1} 
+
+51 140 0.36428571428571427 5.033262062072754
+-----------
+
+ACTION IN STEP FUNCTION: 
+4097 Claim: Amyotrophic lateral sclerosis is a disease that usually starts around the age of 60.
+
+4097 Claim: Amyotrophic lateral sclerosis is a disease that usually starts around the age of 60.Thought:
+Assistant's answer: Thought: Amyotrophic lateral sclerosis (ALS) can affect individuals at various ages, but the average age of onset is around 55-65 years old.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4097), 'em': 1, 'reward': 1, 'f1': 1} 
+
+52 141 0.36879432624113473 5.048096634817462
+-----------
+
+ACTION IN STEP FUNCTION: 
+5762 Claim: The Beach is a film with multiple genres.
+
+5762 Claim: The Beach is a film with multiple genres.Thought:
+Assistant's answer: Thought: The Beach is primarily categorized as an adventure and drama film, but it may incorporate elements of other genres such as romance or thriller.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(5762), 'em': 0, 'reward': 0, 'f1': 0} 
+
+52 142 0.36619718309859156 5.053588890693557
+-----------
+
+ACTION IN STEP FUNCTION: 
+5123 Claim: James VI and I razed the Plantation of UIster.
+
+5123 Claim: James VI and I razed the Plantation of UIster.Thought:
+Assistant's answer: Claim: James VI and I razed the Plantation of Ulster.
+Thought: James VI and I refers to King James I of England (James VI of Scotland), who did not directly lead military actions against the Plantation of Ulster. The Plantation of Ulster was primarily carried out during the reign of his successor, King Charles I.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5123), 'em': 1, 'reward': 1, 'f1': 1} 
+
+53 143 0.3706293706293706 5.1062115322459825
+-----------
+
+ACTION IN STEP FUNCTION: 
+4739 Claim: Winter's Tale is a romance.
+
+4739 Claim: Winter's Tale is a romance.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+4739 Claim: Winter's Tale is a romance.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4739), 'em': 1, 'reward': 1, 'f1': 1} 
+
+54 144 0.375 5.091298455993335
+-----------
+
+ACTION IN STEP FUNCTION: 
+2053 Claim: Dilwale Dulhania Le Jayenge began filming in China.
+
+2053 Claim: Dilwale Dulhania Le Jayenge began filming in China.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2053 Claim: Dilwale Dulhania Le Jayenge began filming in China.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(2053), 'em': 0, 'reward': 0, 'f1': 0} 
+
+54 145 0.3724137931034483 5.079692763295667
+-----------
+
+ACTION IN STEP FUNCTION: 
+7174 Claim: Lemmy was known for his distinct gravelly voice.
+
+7174 Claim: Lemmy was known for his distinct gravelly voice.Thought:
+Assistant's answer: Thought: Lemmy Kilmister, the founder and lead vocalist of Motörhead, was indeed known for his distinctive gravelly voice, which was a key part of the band's sound and his personal brand.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(7174), 'em': 1, 'reward': 1, 'f1': 1} 
+
+55 146 0.3767123287671233 5.10001491193902
+-----------
+
+ACTION IN STEP FUNCTION: 
+3594 Claim: The Bassoon King is based in reality.
+
+3594 Claim: The Bassoon King is based in reality.Thought:
+Assistant's answer: Thought: There is no historical figure or real event associated with "The Bassoon King" that suggests it is based in reality.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3594), 'em': 0, 'reward': 0, 'f1': 0} 
+
+55 147 0.3741496598639456 5.106167897075212
+-----------
+
+ACTION IN STEP FUNCTION: 
+1548 Claim: Tilda Swinton is only a lawyer.
+
+1548 Claim: Tilda Swinton is only a lawyer.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+1548 Claim: Tilda Swinton is only a lawyer.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Tilda Swinton is only a lawyer.
+Thought: Tilda Swinton is a renowned actress, not known for being a lawyer.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Tilda Swinton is only a lawyer.
+Thought: Tilda Swinton is a renowned actress, not known for being a lawyer.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1548), 'em': 0, 'reward': 0, 'f1': 0} 
+
+55 148 0.3716216216216216 5.11831271648407
+-----------
+
+ACTION IN STEP FUNCTION: 
+6669 Claim: Bea Arthur was born on May 10th, 1920.
+
+6669 Claim: Bea Arthur was born on May 10th, 1920.Thought:
+Assistant's answer: Thought: Bea Arthur was born on May 10, 1922, according to reliable biographical information.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6669), 'em': 1, 'reward': 1, 'f1': 1} 
+
+56 149 0.37583892617449666 5.122901257252533
+-----------
+
+ACTION IN STEP FUNCTION: 
+4237 Claim: James VI and I was a person.
+
+4237 Claim: James VI and I was a person.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4237 Claim: James VI and I was a person.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4237), 'em': 0, 'reward': 0, 'f1': 0} 
+
+56 150 0.37333333333333335 5.106936761538187
+-----------
+
+ACTION IN STEP FUNCTION: 
+1551 Claim: Robert Palmer (writer) isn't a journalist.
+
+1551 Claim: Robert Palmer (writer) isn't a journalist.Thought:
+Assistant's answer: Thought: Robert Palmer is known for his work as a singer and songwriter, not as a journalist.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'REFUTES', 'question_idx': np.int64(1551), 'em': 0, 'reward': 0, 'f1': 0} 
+
+56 151 0.3708609271523179 5.101655522719124
+-----------
+
+ACTION IN STEP FUNCTION: 
+3725 Claim: Chris Kyle was born on April 8, 1974.
+
+3725 Claim: Chris Kyle was born on April 8, 1974.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+3725 Claim: Chris Kyle was born on April 8, 1974.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3725), 'em': 0, 'reward': 0, 'f1': 0} 
+
+56 152 0.3684210526315789 5.090060941482845
+-----------
+
+ACTION IN STEP FUNCTION: 
+6800 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins.
+
+6800 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+6800 Claim: Mary-Kate Olsen and Ashley Olsen are also known as the Olsen twins.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6800), 'em': 1, 'reward': 1, 'f1': 1} 
+
+57 153 0.37254901960784315 5.076304220685772
+-----------
+
+ACTION IN STEP FUNCTION: 
+3216 Claim: Mogadishu is located outside of Somalia.
+
+3216 Claim: Mogadishu is located outside of Somalia.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3216 Claim: Mogadishu is located outside of Somalia.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3216), 'em': 0, 'reward': 0, 'f1': 0} 
+
+57 154 0.37012987012987014 5.06098950373662
+-----------
+
+ACTION IN STEP FUNCTION: 
+4116 Claim: Liverpool was the town where The Beatles formed and where they broke up.
+
+4116 Claim: Liverpool was the town where The Beatles formed and where they broke up.Thought:
+Assistant's answer: Thought: The Beatles formed in Liverpool, England, but they did not break up in Liverpool; they disbanded in 1970 after the departure of Ringo Starr.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4116), 'em': 0, 'reward': 0, 'f1': 0} 
+
+57 155 0.36774193548387096 5.071420537271807
+-----------
+
+ACTION IN STEP FUNCTION: 
+1557 Claim: Folklore includes pratfalls.
+
+1557 Claim: Folklore includes pratfalls.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1557 Claim: Folklore includes pratfalls.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1557), 'em': 1, 'reward': 1, 'f1': 1} 
+
+58 156 0.3717948717948718 5.062539284045879
+-----------
+
+ACTION IN STEP FUNCTION: 
+1560 Claim: Noel Fisher acted in the role of Cael Malloy.
+
+1560 Claim: Noel Fisher acted in the role of Cael Malloy.Thought:
+Assistant's answer: Claim: Noel Fisher acted in the role of Cael Malloy.
+Thought: Noel Fisher played the role of Cael Malloy in the TV series "The 100."
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1560), 'em': 0, 'reward': 0, 'f1': 0} 
+
+58 157 0.36942675159235666 5.073899714050779
+-----------
+
+ACTION IN STEP FUNCTION: 
+4248 Claim: So You Think You Can Dance is only a film.
+
+4248 Claim: So You Think You Can Dance is only a film.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+4248 Claim: So You Think You Can Dance is only a film.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4248), 'em': 0, 'reward': 0, 'f1': 0} 
+
+58 158 0.3670886075949367 5.058786128140703
+-----------
+
+ACTION IN STEP FUNCTION: 
+5274 Claim: AMGTV has programming.
+
+5274 Claim: AMGTV has programming.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5274 Claim: AMGTV has programming.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(5274), 'em': 0, 'reward': 0, 'f1': 0} 
+
+58 159 0.36477987421383645 5.0519900187006535
+-----------
+
+ACTION IN STEP FUNCTION: 
+156 Claim: The human brain contains a hypothalamus.
+
+156 Claim: The human brain contains a hypothalamus.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+156 Claim: The human brain contains a hypothalamus.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(156), 'em': 1, 'reward': 1, 'f1': 1} 
+
+59 160 0.36875 5.035253466665745
+-----------
+
+ACTION IN STEP FUNCTION: 
+3618 Claim: Ashton Kutcher is a romantic comedy actor.
+
+3618 Claim: Ashton Kutcher is a romantic comedy actor.Thought:
+Assistant's answer: Thought: Ashton Kutcher has starred in several romantic comedy films such as "No Strings Attached" and "How to Be Single," which suggests he is known for this genre.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3618), 'em': 1, 'reward': 1, 'f1': 1} 
+
+60 161 0.37267080745341613 5.045280456542969
+-----------
+
+ACTION IN STEP FUNCTION: 
+5155 Claim: The University of Illinois at Chicago is located in Buffalo, New York.
+
+5155 Claim: The University of Illinois at Chicago is located in Buffalo, New York.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+5155 Claim: The University of Illinois at Chicago is located in Buffalo, New York.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5155), 'em': 1, 'reward': 1, 'f1': 1} 
+
+61 162 0.3765432098765432 5.031094512821715
+-----------
+
+ACTION IN STEP FUNCTION: 
+3750 Claim: A monk lives alone or with other types of people.
+
+3750 Claim: A monk lives alone or with other types of people.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFORMATION]
+ohh... Answer: finish[NOT ENOUGH INFORMATION]
+
+3750 Claim: A monk lives alone or with other types of people.Thought: Answer: finish[NOT ENOUGH INFORMATION]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFORMATION]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFORMATION]
+{'steps': 1, 'answer': 'NOT ENOUGH INFORMATION', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3750), 'em': 0, 'reward': 0, 'f1': 0} 
+
+61 163 0.37423312883435583 5.019715456874824
+-----------
+
+ACTION IN STEP FUNCTION: 
+5671 Claim: Pirates of the Caribbean has yet to be opened in Disneyland Paris.
+
+5671 Claim: Pirates of the Caribbean has yet to be opened in Disneyland Paris.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+5671 Claim: Pirates of the Caribbean has yet to be opened in Disneyland Paris.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5671), 'em': 0, 'reward': 0, 'f1': 0} 
+
+61 164 0.3719512195121951 5.0078587081374195
+-----------
+
+ACTION IN STEP FUNCTION: 
+6696 Claim: Despacito has a version which features a musician.
+
+6696 Claim: Despacito has a version which features a musician.Thought:
+Assistant's answer: Thought: Luis Fonsi and Daddy Yankee's "Despacito" has a well-known remix featuring Justin Bieber.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(6696), 'em': 1, 'reward': 1, 'f1': 1} 
+
+62 165 0.37575757575757573 5.0079977122220125
+-----------
+
+ACTION IN STEP FUNCTION: 
+166 Claim: The ruins of the ancient Roman town of Herculaneum lie near Naples.
+
+166 Claim: The ruins of the ancient Roman town of Herculaneum lie near Naples.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+166 Claim: The ruins of the ancient Roman town of Herculaneum lie near Naples.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(166), 'em': 0, 'reward': 0, 'f1': 0} 
+
+62 166 0.37349397590361444 4.997075425573142
+-----------
+
+ACTION IN STEP FUNCTION: 
+5291 Claim: Reign Over Me was not written and directed by Mike Binder.
+
+5291 Claim: Reign Over Me was not written and directed by Mike Binder.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+5291 Claim: Reign Over Me was not written and directed by Mike Binder.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Reign Over Me was not written and directed by Mike Binder.
+Thought: Mike Binder did write and direct the film Reign Over Me.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Reign Over Me was not written and directed by Mike Binder.
+Thought: Mike Binder did write and direct the film Reign Over Me.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5291), 'em': 0, 'reward': 0, 'f1': 0} 
+
+62 167 0.3712574850299401 5.0081924278579075
+-----------
+
+ACTION IN STEP FUNCTION: 
+2733 Claim: Bryan Howd was a Golden Globe nominee.
+
+2733 Claim: Bryan Howd was a Golden Globe nominee.Thought:
+Assistant's answer: Thought: Bryan Howd is known for his work as a producer and writer, but there is no information provided about him being a Golden Globe nominee.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2733), 'em': 0, 'reward': 0, 'f1': 0} 
+
+62 168 0.36904761904761907 5.019305833748409
+-----------
+
+ACTION IN STEP FUNCTION: 
+5679 Claim: A monster is only found in reality.
+
+5679 Claim: A monster is only found in reality.Thought:
+Assistant's answer: Thought: The concept of a monster can exist both in reality and in fiction, such as in stories, movies, and literature.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(5679), 'em': 1, 'reward': 1, 'f1': 1} 
+
+63 169 0.3727810650887574 5.02037410341071
+-----------
+
+ACTION IN STEP FUNCTION: 
+2609 Claim: Renato Balestra came from an architect family.
+
+2609 Claim: Renato Balestra came from an architect family.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+2609 Claim: Renato Balestra came from an architect family.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2609), 'em': 0, 'reward': 0, 'f1': 0} 
+
+63 170 0.37058823529411766 5.008376926534316
+-----------
+
+ACTION IN STEP FUNCTION: 
+690 Claim: Tom DeLonge formed Taking Back Sunday.
+
+690 Claim: Tom DeLonge formed Taking Back Sunday.Thought:
+Assistant's answer: Thought: Tom DeLonge is known for forming Blink-182 and later forming Angels & Airwaves, but he did not form Taking Back Sunday.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(690), 'em': 0, 'reward': 0, 'f1': 0} 
+
+63 171 0.3684210526315789 5.019260017495406
+-----------
+
+ACTION IN STEP FUNCTION: 
+3124 Claim: Giada at Home aired on a channel owned by Turner Broadcasting.
+
+3124 Claim: Giada at Home aired on a channel owned by Turner Broadcasting.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3124 Claim: Giada at Home aired on a channel owned by Turner Broadcasting.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: Giada at Home aired on a channel owned by Turner Broadcasting.
+Thought: Turner Broadcasting System owns TBS, TNT, TruTV, and other channels, but Giada at Home airs on Food Network, which is owned by Discovery, Inc., not Turner Broadcasting.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: Giada at Home aired on a channel owned by Turner Broadcasting.
+Thought: Turner Broadcasting System owns TBS, TNT, TruTV, and other channels, but Giada at Home airs on Food Network, which is owned by Discovery, Inc., not Turner Broadcasting.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3124), 'em': 0, 'reward': 0, 'f1': 0} 
+
+63 172 0.36627906976744184 5.058084514251975
+-----------
+
+ACTION IN STEP FUNCTION: 
+6709 Claim: Harris Jayaraj is a television composer.
+
+6709 Claim: Harris Jayaraj is a television composer.Thought:
+Assistant's answer: Thought: There is no information provided about Harris Jayaraj's work as a television composer.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6709), 'em': 0, 'reward': 0, 'f1': 0} 
+
+63 173 0.36416184971098264 5.055000958415125
+-----------
+
+ACTION IN STEP FUNCTION: 
+3253 Claim: Muscarinic acetylcholine receptors are actylcholine receptors and they are important for biochemistry.
+
+3253 Claim: Muscarinic acetylcholine receptors are actylcholine receptors and they are important for biochemistry.Thought:
+Assistant's answer: Thought: Muscarinic acetylcholine receptors are indeed a type of acetylcholine receptor and play important roles in biochemistry by mediating the effects of acetylcholine in the body.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3253), 'em': 0, 'reward': 0, 'f1': 0} 
+
+63 174 0.3620689655172414 5.072388798340984
+-----------
+
+ACTION IN STEP FUNCTION: 
+4152 Claim: Trollhunters was produced by Adam Sandler.
+
+4152 Claim: Trollhunters was produced by Adam Sandler.Thought:
+Assistant's answer: Thought: Trollhunters was produced by DreamWorks Animation, not Adam Sandler.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(4152), 'em': 1, 'reward': 1, 'f1': 1} 
+
+64 175 0.3657142857142857 5.065578793116979
+-----------
+
+ACTION IN STEP FUNCTION: 
+3129 Claim: Jamie Murray is a winner.
+
+3129 Claim: Jamie Murray is a winner.Thought:
+Assistant's answer: Thought: Jamie Murray has won multiple Grand Slam doubles titles in tennis, which supports the claim that he is a winner.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3129), 'em': 1, 'reward': 1, 'f1': 1} 
+
+65 176 0.3693181818181818 5.064340600913221
+-----------
+
+ACTION IN STEP FUNCTION: 
+3642 Claim: Norman Jewison directed The Cincinnati Kid.
+
+3642 Claim: Norman Jewison directed The Cincinnati Kid.Thought:
+Assistant's answer: Thought: Norman Jewison indeed directed the film "The Cincinnati Kid" which was released in 1965.
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(3642), 'em': 1, 'reward': 1, 'f1': 1} 
+
+66 177 0.3728813559322034 5.067482075448764
+-----------
+
+ACTION IN STEP FUNCTION: 
+1720 Claim: Chris Eubank Jr. was an only child.
+
+1720 Claim: Chris Eubank Jr. was an only child.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1720 Claim: Chris Eubank Jr. was an only child.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1720), 'em': 1, 'reward': 1, 'f1': 1} 
+
+67 178 0.37640449438202245 5.055635196439336
+-----------
+
+ACTION IN STEP FUNCTION: 
+2748 Claim: Palo Alto, California's location is the San Francisco Bay Area.
+
+2748 Claim: Palo Alto, California's location is the San Francisco Bay Area.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+2748 Claim: Palo Alto, California's location is the San Francisco Bay Area.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(2748), 'em': 0, 'reward': 0, 'f1': 0} 
+
+67 179 0.3743016759776536 5.04227451372413
+-----------
+
+ACTION IN STEP FUNCTION: 
+3265 Claim: Global warming is expected to exacerbate with the retreat of permafrost.
+
+3265 Claim: Global warming is expected to exacerbate with the retreat of permafrost.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+3265 Claim: Global warming is expected to exacerbate with the retreat of permafrost.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3265), 'em': 0, 'reward': 0, 'f1': 0} 
+
+67 180 0.37222222222222223 5.030956514676412
+-----------
+
+ACTION IN STEP FUNCTION: 
+6849 Claim: Riddick is in a documentary.
+
+6849 Claim: Riddick is in a documentary.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+6849 Claim: Riddick is in a documentary.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': np.int64(6849), 'em': 0, 'reward': 0, 'f1': 0} 
+
+67 181 0.3701657458563536 5.022117126053868
+-----------
+
+ACTION IN STEP FUNCTION: 
+4678 Claim: Amyotrophic lateral sclerosis is a disease.
+
+4678 Claim: Amyotrophic lateral sclerosis is a disease.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+4678 Claim: Amyotrophic lateral sclerosis is a disease.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(4678), 'em': 0, 'reward': 0, 'f1': 0} 
+
+67 182 0.36813186813186816 5.009203339671041
+-----------
+
+ACTION IN STEP FUNCTION: 
+4679 Claim: Thomas Jefferson retired from a position.
+
+4679 Claim: Thomas Jefferson retired from a position.Thought:
+Assistant's answer: Thought: Thomas Jefferson retired from the presidency in 1809 after his second term.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4679), 'em': 0, 'reward': 0, 'f1': 0} 
+
+67 183 0.366120218579235 5.004284010558832
+-----------
+
+ACTION IN STEP FUNCTION: 
+200 Claim: Martin Van Buren was Secretary of State.
+
+200 Claim: Martin Van Buren was Secretary of State.Thought:
+Assistant's answer: Thought: Martin Van Buren served as the United States Secretary of State from 1829 to 1831.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(200), 'em': 1, 'reward': 1, 'f1': 1} 
+
+68 184 0.3695652173913043 5.009691944588786
+-----------
+
+ACTION IN STEP FUNCTION: 
+1224 Claim: Artpop sold about 757,000 cats.
+
+1224 Claim: Artpop sold about 757,000 cats.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1224 Claim: Artpop sold about 757,000 cats.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1224), 'em': 1, 'reward': 1, 'f1': 1} 
+
+69 185 0.372972972972973 4.998599592415062
+-----------
+
+ACTION IN STEP FUNCTION: 
+716 Claim: There are no musical or creative works in existence that have been created by Phillip Glass.
+
+716 Claim: There are no musical or creative works in existence that have been created by Phillip Glass.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+716 Claim: There are no musical or creative works in existence that have been created by Phillip Glass.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: There are no musical or creative works in existence that have been created by Phillip Glass.
+Thought: Phillip Glass is a well-known composer who has created numerous musical and creative works.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: There are no musical or creative works in existence that have been created by Phillip Glass.
+Thought: Phillip Glass is a well-known composer who has created numerous musical and creative works.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'REFUTES', 'question_idx': np.int64(716), 'em': 0, 'reward': 0, 'f1': 0} 
+
+69 186 0.3709677419354839 5.019216049102045
+-----------
+
+ACTION IN STEP FUNCTION: 
+1614 Claim: Osamu Tezuka practiced hiking as a young child.
+
+1614 Claim: Osamu Tezuka practiced hiking as a young child.Thought:
+Assistant's answer: Answer: finish[NOT ENOUGH INFO]
+ohh... Answer: finish[NOT ENOUGH INFO]
+
+1614 Claim: Osamu Tezuka practiced hiking as a young child.Thought: Answer: finish[NOT ENOUGH INFO]
+Answer:
+Assistant's answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1614), 'em': 1, 'reward': 1, 'f1': 1} 
+
+70 187 0.37433155080213903 5.008035616441206
+-----------
+
+ACTION IN STEP FUNCTION: 
+5711 Claim: Middle-earth is a setting that is fictional.
+
+5711 Claim: Middle-earth is a setting that is fictional.Thought:
+Assistant's answer: Answer: finish[SUPPORTS]
+ohh... Answer: finish[SUPPORTS]
+
+5711 Claim: Middle-earth is a setting that is fictional.Thought: Answer: finish[SUPPORTS]
+Answer:
+Assistant's answer: Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(5711), 'em': 0, 'reward': 0, 'f1': 0} 
+
+70 188 0.3723404255319149 4.99562721049532
+-----------
+
+ACTION IN STEP FUNCTION: 
+1107 Claim: Trace Cyrus is a sibling of Noah Cyrus.
+
+1107 Claim: Trace Cyrus is a sibling of Noah Cyrus.Thought:
+Assistant's answer: Thought: Trace Adkins and Noah Cyrus are both American singers, but they are not siblings. Trace Adkins is the father of Noah Cyrus.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1107), 'em': 0, 'reward': 0, 'f1': 0} 
+
+70 189 0.37037037037037035 5.000745277556162
+-----------
+
+ACTION IN STEP FUNCTION: 
+84 Claim: Ron Weasley is a President.
+
+84 Claim: Ron Weasley is a President.Thought:
+Assistant's answer: Thought: Ron Weasley is a fictional character from the Harry Potter series and does not hold any political office such as President.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(84), 'em': 0, 'reward': 0, 'f1': 0} 
+
+70 190 0.3684210526315789 5.002185930703815
+-----------
+
+ACTION IN STEP FUNCTION: 
+4179 Claim: Colin Kaepernick did not become a starter during the 49ers 63rd season in the National Football League.
+
+4179 Claim: Colin Kaepernick did not become a starter during the 49ers 63rd season in the National Football League.Thought:
+Assistant's answer: Thought: Colin Kaepernick became the starting quarterback for the San Francisco 49ers during their 63rd season (1998) in the National Football League.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(4179), 'em': 0, 'reward': 0, 'f1': 0} 
+
+70 191 0.36649214659685864 5.010940561743931
+-----------
+
+ACTION IN STEP FUNCTION: 
+1114 Claim: Life is a trait.
+
+1114 Claim: Life is a trait.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+1114 Claim: Life is a trait.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1114), 'em': 0, 'reward': 0, 'f1': 0} 
+
+70 192 0.3645833333333333 5.001181480785211
+-----------
+
+ACTION IN STEP FUNCTION: 
+7260 Claim: James Earl Jones was not a voice actor in The Lion King.
+
+7260 Claim: James Earl Jones was not a voice actor in The Lion King.Thought:
+Assistant's answer: Thought: James Earl Jones provided the voice for Mufasa in The Lion King.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(7260), 'em': 1, 'reward': 1, 'f1': 1} 
+
+71 193 0.36787564766839376 4.995130174518249
+-----------
+
+ACTION IN STEP FUNCTION: 
+6238 Claim: Eric Church is a sound mixer.
+
+6238 Claim: Eric Church is a sound mixer.Thought:
+Assistant's answer: Thought: Eric Church is an American country music singer and songwriter, not a sound mixer.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(6238), 'em': 0, 'reward': 0, 'f1': 0} 
+
+71 194 0.36597938144329895 4.989958577549334
+-----------
+
+ACTION IN STEP FUNCTION: 
+3687 Claim: Paramore is not from Tennessee.
+
+3687 Claim: Paramore is not from Tennessee.Thought:
+Assistant's answer: Thought: Paramore is from Franklin, Tennessee, which is located just south of Nashville.
+
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': np.int64(3687), 'em': 1, 'reward': 1, 'f1': 1} 
+
+72 195 0.36923076923076925 4.988756300852849
+-----------
+
+ACTION IN STEP FUNCTION: 
+1129 Claim: Johnny Galecki plays a character with a Ph.D. in How I Met Your Mother.
+
+1129 Claim: Johnny Galecki plays a character with a Ph.D. in How I Met Your Mother.Thought:
+Assistant's answer: Thought: In "How I Met Your Mother," Johnny Galecki plays the character of Leonard Hofstadter, who does not have a Ph.D. The show does not mention Leonard having any advanced degree.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(1129), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 196 0.3673469387755102 5.001275146494106
+-----------
+
+ACTION IN STEP FUNCTION: 
+7275 Claim: Rick Yune was on an HBO show.
+
+7275 Claim: Rick Yune was on an HBO show.Thought:
+Assistant's answer: Thought: Rick Yune appeared in the HBO series "Westworld" from 2016 to 2020.
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(7275), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 197 0.36548223350253806 5.006086025141218
+-----------
+
+ACTION IN STEP FUNCTION: 
+7278 Claim: Middle-earth is part of a literary collection of legends.
+
+7278 Claim: Middle-earth is part of a literary collection of legends.Thought:
+Assistant's answer: Thought: J.R.R. Tolkien's Middle-earth is indeed part of a literary collection of legends, including novels such as "The Hobbit" and "The Lord of the Rings." 
+
+Answer: finish[SUPPORTS]
+ACTION IN STEP FUNCTION: finish[SUPPORTS]
+{'steps': 1, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(7278), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 198 0.36363636363636365 5.01612427740386
+-----------
+
+ACTION IN STEP FUNCTION: 
+5747 Claim: Janet Leigh starred in Twilight.
+
+5747 Claim: Janet Leigh starred in Twilight.Thought:
+Assistant's answer: Thought: Janet Leigh did not star in the film "Twilight." The main female lead in "Twilight" was played by Kristen Stewart.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[REFUTES]
+{'steps': 1, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(5747), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 199 0.36180904522613067 5.023239095007355
+-----------
+
+ACTION IN STEP FUNCTION: 
+3188 Claim: The Armenian Genocide occurred during the Reconstruction.
+
+3188 Claim: The Armenian Genocide occurred during the Reconstruction.Thought:
+Assistant's answer: Answer: finish[REFUTES]
+ohh... Answer: finish[REFUTES]
+
+3188 Claim: The Armenian Genocide occurred during the Reconstruction.Thought: Answer: finish[REFUTES]
+Answer:
+Assistant's answer: Claim: The Armenian Genocide occurred during the Reconstruction.
+Thought: The Armenian Genocide took place from 1915 to 1917 during World War I under the Ottoman Empire, whereas the Reconstruction Era in the United States refers to the period between 1865 and 1877 following the American Civil War.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: claim: The Armenian Genocide occurred during the Reconstruction.
+Thought: The Armenian Genocide took place from 1915 to 1917 during World War I under the Ottoman Empire, whereas the Reconstruction Era in the United States refers to the period between 1865 and 1877 following the American Civil War.
+Answer: finish[REFUTES]
+ACTION IN STEP FUNCTION: finish[]
+{'steps': 2, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': np.int64(3188), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 200 0.36 5.067847981452942
+-----------
+
+ACTION IN STEP FUNCTION: 
+1534 Claim: The Road to El Dorado stars Jim Cummings.
+
+1534 Claim: The Road to El Dorado stars Jim Cummings.Thought:
+Assistant's answer: Thought: Jim Cummings voices Pacha in The Road to El Dorado, but it does not specify if he is one of the main stars.
+Answer: finish[NOT ENOUGH INFO]
+ACTION IN STEP FUNCTION: finish[NOT ENOUGH INFO]
+{'steps': 1, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'SUPPORTS', 'question_idx': np.int64(1534), 'em': 0, 'reward': 0, 'f1': 0} 
+
+72 201 0.3582089552238806 5.072203145098331
+-----------
+
